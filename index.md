@@ -1,26 +1,18 @@
 ---
-layout: full
-width: full
-title: Build fast and secure websites with Jekyll
-excerpt: 'Multipurpose Jekyll theme. Create company or personal site and host on GitHub for free.
-          <br><br>
-          <a class="uk-button uk-button-large uk-button-danger uk-box-shadow-medium hvr-up" href="https://github.com/ivanchromjak/jekyll-theme-plus/fork"><span uk-icon="github"></span> Fork on GitHub</a> &nbsp;
-          <a class="uk-button uk-button-large uk-button-light uk-box-shadow-medium hvr-up" href="https://github.com/ivanchromjak/jekyll-theme-plus/fork"><span uk-icon="copy"></span> Documentation</a>'
-navbar:
-  sticky: true
-  animation: true
-  style: light
-  transparent: true
-header:
-    # background_image: https://source.unsplash.com/aViOQZzikVs
-    background_align: center
-    background_color: "linear-gradient(-40deg, #0acffe 0%, #495aff 100%)"
-    background_overlay: true
-    color: light
-    align: left
-    search: true
-    height: full-
-    image: /assets/icons/rocket-2.svg
+layout: help
+title: How Can We Help You?
+subtitle: Self Help Support
+hero:
+    background: "#ffffff"   # background color, note setting a background image below will overlay the background color
+    image: ocean.jpg        # local image e.g ocean.jpg from /assets/posts/ folder or remote e.g https://source.unsplash.com/ZeXP6p7agjE
+    align: top              # header image alignment e.g. top, center or bottom
+    text: dark              # text color e.g. dark or light
+    search: true            # enable search
+category:
+    columns: 3              # number of category columns; 1, 2, 3, 4
+featured:
+    title: Featured Articles
+    tag: featured           # tag used to populate featured section on home page
 ---
 
 {% include cards.html id="home-why" style="default" media="top" section="muted" align="center" title="Why switch to Jekyll" %}
